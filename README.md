@@ -1,15 +1,22 @@
 # IsingModel
-PYU33C01 Project: Computational Simulation of the Ising Model
+## PYU33C01 Project: Computational Simulation of the Ising Model
 
-Project Structure For IsingSolver()
-----ising.ipynp
+### Project Structure For IsingSolver()
+<br>
 Contains the IsingSolver class, which is called using IsingSolver(args)
+<br>
 The following is a list of the arguments the it takes
--grid_type
+<br>
+``grid_type``
+<br>
     This is the lattice configuration. Takes sting values: line, square, triangle, hexagon, cube. Default is square
--dim  
+<br>
+-dim
+<br>
     This is the dimension of the lattice. Takes integer values. Default is 100
+<br>
 -initial_state 
+ <br>   
     This is the initial configuration of the lattice. Takes string values: hot, cold. Default is hot
 -pbcs 
     Sets the periodic boundary conditions. Takes boolean string: True or False. Default is on.
