@@ -6,9 +6,7 @@
 Contains the IsingSolver class, which is called using IsingSolver(args)
 <br>
 The following is a list of the arguments the it takes
-<br>
 `grid_type`
-<br>
     This is the lattice configuration. Takes sting values: line, square, triangle, hexagon, cube. Default is square
 <br>
 -dim
